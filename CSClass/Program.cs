@@ -52,7 +52,15 @@ namespace CSClass
             Console.WriteLine(Math.Max(52, 323));
             Console.WriteLine(Math.Min(52, 323));
             Console.WriteLine(Math.PI);
+
+            Product product = new Product();
         }
     }
 
+    internal class Product
+    {
+        public Product()
+        {
+        }
+    }
 }
