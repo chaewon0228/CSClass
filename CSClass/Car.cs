@@ -18,19 +18,17 @@ namespace CSClass
         /// <summary>
         /// 자동차가 들어온 시간 설정
         /// </summary>
-        /// <exception cref="NotImplementedException"></exception>
         public void SetInTime()
         {
-            throw new NotImplementedException();
+            this.inTime = DateTime.Now;
         }
 
         /// <summary>
         /// 자동차가 나간 시간 설정
         /// </summary>
-        /// <exception cref="NotImplementedException"></exception>
         public void SetOutTime()
         {
-            throw new NotImplementedException();
+            this.outTime = DateTime.Now;
         }
     }
 }
