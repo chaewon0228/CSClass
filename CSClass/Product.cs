@@ -1,4 +1,6 @@
-﻿namespace CSClass
+﻿using System;
+
+namespace CSClass
 {
     class Product
     {
@@ -22,6 +24,10 @@
         public override string ToString()
         {
             return "[" + this.id + "] " + this.name + ": " + this.price;
+        }
+
+        ~Product(){
+            Console.WriteLine(this.name + "의 소멸자 호출 -.-");
         }
     }
 }

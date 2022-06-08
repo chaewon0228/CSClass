@@ -130,7 +130,7 @@ namespace CSClass
             Console.WriteLine(productY);
             Console.WriteLine(Product.counter + "개가 생성되었습니다");
 
-
+            SingleTon mySingle = SingleTon.getInstance();
         }
     }
 }
