@@ -131,6 +131,16 @@ namespace CSClass
             Console.WriteLine(Product.counter + "개가 생성되었습니다");
 
             SingleTon mySingle = SingleTon.getInstance();
+
+            Console.WriteLine("첫 번째 위치");
+            Sample sample = new Sample();
+            Console.WriteLine("두 번째 위치");
+            Console.WriteLine(Sample.value);
+            Console.WriteLine("세 번째 위치");
+
+
+            Product product = new Product("과자", 1500);
+            productA = null;
         }
     }
 }
