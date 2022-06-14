@@ -153,6 +153,12 @@ namespace CSClass
 
             Box box2 = new Box(-10, -20);
             Console.WriteLine(box2.Area);
+
+
+            //Console.WriteLine(Fibonacci.Get(1));
+            //Console.WriteLine(Fibonacci.Get(10));
+            //Console.WriteLine(Fibonacci.Get(30));
+            Console.WriteLine(Fibonacci.Get(1000));
         }
     }
 }
