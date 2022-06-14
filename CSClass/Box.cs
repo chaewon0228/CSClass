@@ -8,7 +8,7 @@ namespace CSClass
 
         private int height;
         public int Height
-        {
+        { 
             get { return height; }
             set
             {
