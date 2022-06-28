@@ -184,6 +184,16 @@ namespace CSClass
 
             Child ChildA = new Child();
             Child ChildB = new Child("string");
+
+
+            // Shadowing
+            int number = 20;
+            Console.WriteLine(number);
+
+            foreach (var item in Animals)
+            {
+                item.Eat();
+            }
         }
     }
 }
